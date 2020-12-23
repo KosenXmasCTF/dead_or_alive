@@ -3,7 +3,7 @@ version: '3'
 services:
   socat:
     build: '.'
-    image: '${IMAGE_NAME}:${VERSION}'
+    image: '${IMAGE_NAME}:${IMAGE_VERSION}'
     container_name: 'dead_or_alive'
     ports:
       - '9005:9005/tcp'
